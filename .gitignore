@@ -1,9 +1,52 @@
-anthropic/*
-annotated_types-0.7.0.dist-info/*
-httpx/*
-_yaml/*
-annotated_types/*
-anyio/*
-anthropic-0.34.2.dist-info/*
-certifi/__main__.py
-bin/normalizer
+# Python virtual environment
+lambda_env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Installed packages
+*.dist-info/
+*.so
+
+# Other common files to ignore
+*.log
+*.sqlite3
+.DS_Store
+
+# Specific directories and files
+anthropic/
+httpx/
+_yaml/
+annotated_types/
+anyio/
+bin/
+certifi/
+charset_normalizer/
+distro/
+filelock/
+fsspec/
+h11/
+httpcore/
+huggingface_hub/
+idna/
+jiter/
+packaging/
+pydantic/
+pydantic_core/
+requests/
+sniffio/
+tokenizers/
+tqdm/
+typing_extensions.py
+urllib3/
+yaml/
+
+# Lambda function zip
+lambda_function.zip
